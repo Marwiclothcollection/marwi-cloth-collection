@@ -344,3 +344,19 @@ nav a:hover{
     box-shadow:0 12px 35px rgba(212,175,55,.8);
   }
 }
+@media(max-width:768px){
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.btn{
+    font-size:18px;
+    padding:14px 32px;
+}
+
+}
