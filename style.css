@@ -314,5 +314,21 @@ nav a:hover{
     color: #fff;
     font-size: 22px;
     margin: 20px 0;
+}.btn{
+    display:inline-block;
+    padding:16px 40px;
+    background:linear-gradient(135deg,#FFD700,#C9A227);
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:50px;
+    text-decoration:none;
+    box-shadow:0 8px 25px rgba(212,175,55,.5);
+    transition:.3s;
 }
+
+.btn:hover{
+    transform:translateY(-4px) scale(1.05);
+    box-shadow:0 12px 35px rgba(212,175,55,.8);
+  }
 }
