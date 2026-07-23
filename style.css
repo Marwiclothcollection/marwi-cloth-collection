@@ -232,3 +232,64 @@ nav a{
 nav a:hover{
     color:#FFD700;
 }
+/* Premium Hero */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("images/IMG-20260724-WA0055.jpg") center/cover no-repeat;
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.overlay{
+    max-width:700px;
+}
+
+.overlay h1{
+    font-size:60px;
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.overlay p{
+    color:#fff;
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1faa52;
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+.overlay h1{
+    font-size:36px;
+}
+
+.overlay p{
+    font-size:18px;
+}
+
+.hero{
+    min-height:60vh;
+}
+
+}
