@@ -191,3 +191,120 @@ nav a:hover{
     font-size:28px;
     padding:15px 18px;
     font-weight
+.contact{
+    background:#111;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.contact h2{
+    color:#d4af37;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.contact p{
+    color:#ddd;
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+footer{
+    background:#000;
+    color:#999;
+    text-align:center;
+    padding:25px;
+    border-top:2px solid #d4af37;
+}
+
+.whatsapp-float{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:65px;
+    height:65px;
+    background:linear-gradient(135deg,#25D366,#128C7E);
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 0 25px rgba(37,211,102,.6);
+    animation:float 2s infinite;
+    z-index:999;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-8px);}
+    100%{transform:translateY(0);}
+}
+
+@media(max-width:768px){
+
+header .container{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+.overlay h1{
+    font-size:38px;
+}
+
+.overlay p{
+    font-size:17px;
+}
+
+.products h2{
+    font-size:34px;
+}
+
+.product-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.product-card img{
+    height:220px;
+}
+
+.product-card h3{
+    font-size:16px;
+}
+
+.product-card p{
+    font-size:13px;
+}
+
+.product-card h4{
+    font-size:18px;
+}
+
+.btn{
+    font-size:15px;
+    padding:12px 18px;
+}
+
+.whatsapp-float{
+    width:58px;
+    height:58px;
+    font-size:28px;
+}
+
+}
