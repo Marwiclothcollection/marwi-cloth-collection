@@ -219,4 +219,12 @@ font-size:16px;
 font-size:20px;
 }
 
+}.logo{
+    text-align:center;
+    padding:15px 0;
+}
+
+.logo img{
+    width:180px;
+    max-width:90%;
 }
