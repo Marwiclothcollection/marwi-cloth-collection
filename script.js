@@ -40,4 +40,12 @@ product.style.display="none";
 
       let whatsapp =
 
-});
+}); function selectProduct(name) {
+    document.getElementById("product").value = name;
+
+    document.getElementById("orderForm").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    document.getElementById("product").focus();
+    }
