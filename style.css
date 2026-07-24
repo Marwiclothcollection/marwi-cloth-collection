@@ -324,4 +324,21 @@ nav{
     box-shadow:0 12px 30px rgba(212,175,55,.7);
 }
 
+    <input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="WhatsApp Number"
+required>
+
+<textarea
+id="address"
+placeholder="Complete Address"
+rows="4"
+required></textarea>
 }
