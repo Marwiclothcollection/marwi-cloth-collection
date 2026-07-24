@@ -49,3 +49,29 @@ product.style.display="none";
 
     document.getElementById("product").focus();
     }
+document.getElementById("orderForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let address = document.getElementById("address").value;
+    let product = document.getElementById("product").value;
+    let quantity = document.getElementById("quantity").value;
+
+    let message =
+`🛍 *NEW ORDER*
+
+👤 Name: ${name}
+
+📞 Phone: ${phone}
+
+📍 Address: ${address}
+
+🛒 Product: ${product}
+
+📦 Quantity: ${quantity}`;
+
+    let whatsapp = "https://wa.me/923025156140?text=" + encodeURIComponent(message);
+
+    window.open(whatsapp, "_blank");
+});
