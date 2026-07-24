@@ -305,6 +305,23 @@ nav{
     width:58px;
     height:58px;
     font-size:28px;
+}.product-card .btn{
+    display:inline-block;
+    margin:20px 15px;
+    padding:14px 35px;
+    background:linear-gradient(135deg,#FFD700,#C9A227);
+    color:#000 !important;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:700;
+    border-radius:50px;
+    box-shadow:0 8px 25px rgba(212,175,55,.4);
+    transition:.3s;
+}
+
+.product-card .btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(212,175,55,.7);
 }
 
 }
