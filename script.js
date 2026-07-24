@@ -17,29 +17,7 @@ else{
 product.style.display="none";
 }
 
-});document.addEventListener("DOMContentLoaded", function () {
-
-  const form = document.getElementById("checkoutForm");
-
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-
-      let name = document.getElementById("name").value;
-      let phone = document.getElementById("phone").value;
-      let address = document.getElementById("address").value;
-      let product = document.getElementById("product").value;
-
-      let message =
-`🛍️ *New Order*
-
-👤 Name: ${name}
-📞 Phone: ${phone}
-📍 Address: ${address}
-🛒 Product: ${product}`;
-
-      let whatsapp =
-
+});
 }); function selectProduct(name) {
     document.getElementById("product").value = name;
 
