@@ -35,9 +35,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e) {
     let address = document.getElementById("address").value;
     let product = document.getElementById("product").value;
     let quantity = document.getElementById("quantity").value;
-
-    let message =
-`🛍 *NEW ORDER*
+let message = `📦 *NEW ORDER*
 
 👤 Name: ${name}
 
@@ -45,7 +43,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e) {
 
 📍 Address: ${address}
 
-🛒 Product: ${product}
+🛍 Product: ${product}
 
 📦 Quantity: ${quantity}`;
 
