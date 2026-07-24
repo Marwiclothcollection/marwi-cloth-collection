@@ -389,3 +389,29 @@ required></textarea>
     border-color:#FFD700;
     background:#111;
     box-shadow:
+        .order-form input,
+.order-form textarea{
+    width:100%;
+    padding:18px 22px;
+    margin:12px 0;
+    border:2px solid #d4af37;
+    border-radius:18px;
+    background:#181818;
+    color:#fff;
+    font-size:17px;
+    outline:none;
+    box-shadow:0 0 20px rgba(212,175,55,.25);
+    transition:.3s;
+}
+
+.order-form input:focus,
+.order-form textarea:focus{
+    border-color:#FFD700;
+    box-shadow:0 0 30px rgba(255,215,0,.7);
+    transform:scale(1.02);
+}
+
+.order-form input::placeholder,
+.order-form textarea::placeholder{
+    color:#d4d4d4;
+}
