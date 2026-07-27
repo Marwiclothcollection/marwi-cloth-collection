@@ -414,4 +414,21 @@ required></textarea>
 .order-form input::placeholder,
 .order-form textarea::placeholder{
     color:#d4d4d4;
+}.order-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:16px 45px;
+    background:linear-gradient(135deg,#FFD700,#D4AF37);
+    color:#000 !important;
+    font-size:22px;
+    font-weight:700;
+    text-decoration:none;
+    border-radius:50px;
+    box-shadow:0 0 20px rgba(212,175,55,.5);
+    transition:.3s;
+}
+
+.order-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(212,175,55,.8);
 }
